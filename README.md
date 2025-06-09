@@ -50,5 +50,7 @@ I will be documenting my progress with PostgreSQL in this project, including:
 License
 This project is for personal learning purposes and is not intended for production use.
 
+If you have got any question don't fail to reach out @ emmanuelgodwin558@gmail.com and i'm also open for collaborations.
+
 
 
