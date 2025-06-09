@@ -19,3 +19,34 @@ The purpose of this project is to:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+
+2. Install dependencies:
+   npm install
+
+3. Create a .env file in the root directory and add your PostgreSQL credentials:
+   DB_USER=your_username
+   DB_HOST=localhost
+   DB_NAME=your_database
+   DB_PASSWORD=your_password
+   DB_PORT=5432
+
+Running the Project
+1. Start the server in development mode:
+    npm run dev
+
+2. This will use nodemon and ts-node to run the project directly without compiling.
+
+Access the API at http://localhost:3000.
+
+
+Progress Documentation
+I will be documenting my progress with PostgreSQL in this project, including:
+
+Writing SQL queries.
+Managing database schemas.
+Performing CRUD operations.
+License
+This project is for personal learning purposes and is not intended for production use.
+
+
+
