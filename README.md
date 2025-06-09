@@ -42,9 +42,11 @@ Access the API at http://localhost:3000.
 Progress Documentation
 I will be documenting my progress with PostgreSQL in this project, including:
 
-Writing SQL queries.
-Managing database schemas.
-Performing CRUD operations.
+1. Writing SQL queries.
+2. Managing database schemas.
+3. Performing CRUD operations.
+
+   
 License
 This project is for personal learning purposes and is not intended for production use.
 
