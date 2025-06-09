@@ -10,7 +10,7 @@ app.use(express.json());
 // Test route
 app.get('/', async (req, res) => {
   try {
-    const result = await pool.query('SELECT NOW()'); 
+    const result = await pool.query('SELECT NOW()'); // Example query
     res.json({ message: 'API is working!', timestamp: result.rows[0].now });
   } catch (error) {
     console.error('Database error:', error);
