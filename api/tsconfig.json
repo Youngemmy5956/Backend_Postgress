@@ -2,7 +2,8 @@
   "compilerOptions": {
     /* Language and Environment */
     "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript. */
-    "module": "ESNext",                                  /* Specify what module code is generated. */
+    "module": "commonjs",                                /* Change from ESNext to commonjs for Node.js compatibility */
+    "moduleResolution": "node",                          /* Add this line - essential for Prisma */
     "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. */
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
     "strict": true,                                      /* Enable all strict type-checking options. */
@@ -15,6 +16,6 @@
     /* Debugging */
     "sourceMap": true                                    /* Create source map files for emitted JavaScript files. */
   },
-  "include": ["src"],                                    /* Include the source folder. */
+  "include": ["src"],                                    /* Remove src/generated since we're using default location now */
   "exclude": ["node_modules", "dist"]                   /* Exclude unnecessary folders. */
 }
